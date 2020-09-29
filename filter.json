@@ -1,0 +1,17 @@
+{
+	"file_filtering":
+	[
+		{
+		"search_directory": "/test01",
+		"banned_format": ["jpg","txt", "bmp","mp1","mp2","mp3","mp4","mpa","avi","mov","mpe","mpeg","mpg","swf","mid","asx","wma","wmv","bak","bck","bkf","7z","zip","rar","arc","ace","bz2","cab","gz","gzip","hpk","hqx","jar","tar","tgz","wim","zoo","sit","eml","msg","oft","ost","pst","bat","cmd","com","exe","inf","js","msi","msp","ocx","ps1","vb","vbs","wsf","wsh","jse","acm","dll","ocx","sys","vxd","asp","aspx","css","dhtml","php"],
+		"snapshot_name": "filefiltering_test01",
+		"directory_exceptions":[""]
+		},
+		{
+    "search_directory": "/test01/test02",
+    "banned_format": ["mpeg","iso"],
+    "snapshot_name": "filefiltering_test01_test02",
+    "directory_exceptions":["/test01/test02/test03"]
+    }
+	]	
+}
